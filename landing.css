@@ -85,10 +85,14 @@ label {
     width: 200px;
     margin: 8px 0;
 }
-input {
+input, select {
    width: 300px;
    margin: 8px 0;
    margin-left: 30px;   
+}
+
+select { 
+    height: 1.9rem;
 }
 
 .form-btn {
