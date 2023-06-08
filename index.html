@@ -79,10 +79,16 @@
             
             <label>Localidad:</label><input  id="00N8b00000IEQK8" maxlength="255" name="00N8b00000IEQK8" size="20" type="text" /><br>
         
-        <label>Bienes/Comida/Ropa/Juguetes/Otros:</label><input  id="00N8b00000IDH25" name="00N8b00000IDH25" type="checkbox" value="1" /><br>
-
-        <label>Transferencia:</label><input  id="00N8b00000IDH30" name="00N8b00000IDH30" type="checkbox" value="1" /><br>
-        
+           <label for="00N8b00000Ibd3P">Donaciones:</label> 
+                <select  id="00N8b00000Ibd3P" name="00N8b00000Ibd3P" title="DonacionesPicklist">
+                    <option value="">--None--</option>
+                    <option value="Transferencia">Transferencia</option>
+                    <option value="Comida">Comida</option>
+                    <option value="Ropa">Ropa</option>
+                    <option value="Juguetes">Juguetes</option>
+                    <option value="Otros">Otros</option>
+                </select><br>
+                
         <br><br>
         
         <input class="form-btn" type="submit" name="submit">
@@ -102,17 +108,27 @@
                 <h6 class="text-muted">Equipo 11</h6> 
             </div>
             <div class="col-2 scroll-element js-scroll fade-in-bottom ">                              
-                <ul class="nav flex-column">                    
-                    <li class="nav-item mb-2 text-muted">Milena Salerno</li>
-                    <li class="nav-item mb-2 text-muted">Cinthya Guerrero</li>
-                    <li class="nav-item mb-2 text-muted">Florencia Sanabria</li>
-                    <li class="nav-item mb-2 text-muted">Rafael Belloni</li>
-                    <li class="nav-item mb-2 text-muted">Oscar Nuñez</li>
-                    <li class="nav-item mb-2 text-muted">Federico Gigena</li>
+                <ul class="nav flex-column">       
+                    <br>             
+                    <li class="nav-item text-muted">Milena Salerno</li>
+                    <br>
+                    <li class="nav-item text-muted">Cynthia Guerrero</li>
+                    <br>
+                    <li class="nav-item text-muted">Florencia Sanabria</li>
                 </ul>
                 <br>
-                
-            </div>            
+            </div>     
+            <div class="col-2 scroll-element js-scroll fade-in-bottom ">
+                <ul class="nav flex-column">
+                    <br>
+                    <li class="nav-item text-muted">Rafael Belloni</li>
+                    <br>
+                    <li class="nav-item text-muted">Oscar Nuñez</li>
+                    <br>
+                    <li class="nav-item text-muted">Federico Gigena</li>
+                </ul>
+                <br>
+            </div>             
         </footer>
     </div>      
 </body>
